@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head id="home_head">
+    <meta charset="utf-8"/>
+    <title>{{title}}</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      {{tmp}} {{name}}
+    </div>
+  </body>
+  
+  <script type="text/javascript">
+    Vue.config.productionTip = false
+
+    const vm_head = new Vue({
+      el: '#home_head',
+      data: {
+        title: 'tsai1247',
+      }
+    })
+
+    const vm = new Vue({
+      el: '#root',
+      data: {
+        tmp: 'hello world', 
+        name: 'tsai1247'
+      },
+      methods: {
+        
+      },
+      computed: {
+
+      },
+      watch: {
+
+      }
+    })
+  </script>
+</html>
