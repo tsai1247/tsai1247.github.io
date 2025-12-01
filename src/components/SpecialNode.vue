@@ -6,6 +6,7 @@ import images from "@/common/images";
 
 const assetsImages = images.assetsImages;
 const props = defineProps<NodeProps>()
+defineEmits(["updateNodeInternals"]);
 
 const x = computed(() => `${Math.round(props.position.x)}px`)
 const y = computed(() => `${Math.round(props.position.y)}px`)

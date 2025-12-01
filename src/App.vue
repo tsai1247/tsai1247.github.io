@@ -41,7 +41,6 @@
 #app {
   width: 100%;
   height: 100vh;
-  /* background: url("@/assets/light.png") center center no-repeat; */
   background-size: 100% 100%;
   position: relative;
 }
