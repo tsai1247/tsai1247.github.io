@@ -58,7 +58,6 @@ export default defineConfig({
       },
     }),
   ],
-  base: './',
   optimizeDeps: {
     exclude: [
       'vuetify',
