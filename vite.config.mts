@@ -58,6 +58,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/tsai1247/',
   optimizeDeps: {
     exclude: [
       'vuetify',
